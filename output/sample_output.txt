@@ -1,0 +1,123 @@
+Sample output of main.py
+========================================================================
+                     EMPLOYEE DATA PROCESSING REPORT
+========================================================================
+
+1. DATASET INGESTION & VALIDATION
+------------------------------------------------------------------------
+Total Records Read    : 15
+Valid Records         : 12
+Skipped Records       : 3
+
+Skipped Records Details:
+  - ID: 105   | Name: Ethan Hunt         | Reason: Missing required key: 'salary'
+  - ID: 111   | Name: Kevin Bacon        | Reason: Skills list cannot be empty
+  - ID: 114   | Name: Nina Patel         | Reason: Salary must be a number, got 'abc'
+
+2. SALARY & COMPENSATION SUMMARY
+------------------------------------------------------------------------
+Active Employees       : 12
+Average Salary         : $68,500.00
+Highest Paid Employee  : Ian Malcolm (Engineering) - $96,000.00 (ID: 109)
+Lowest Paid Employee   : Charlie Brown (Marketing) - $48,000.00 (ID: 103)
+
+3. DEPARTMENT BREAKDOWN
+------------------------------------------------------------------------
+Department               Count      Percentage
+------------------------------------------------------------------------
+Engineering              4          33.3%
+Marketing                2          16.7%
+Sales                    2          16.7%
+HR                       2          16.7%
+Design                   2          16.7%
+------------------------------------------------------------------------
+
+4. SKILLS OVERVIEW
+------------------------------------------------------------------------
+Most Common Skill      : Python (4 employees)
+
+Skill Counts:
+  - Python                : 4
+  - Figma                 : 2
+  - Negotiation           : 2
+  - Payroll               : 2
+  - SEO                   : 2
+  - SQL                   : 2
+  - AWS                   : 1
+  - B2B Sales             : 1
+  - CRM                   : 1
+  - Client Management     : 1
+  - Compliance            : 1
+  - Content Strategy      : 1
+  - Copywriting           : 1
+  - Design Systems        : 1
+  - Docker                : 1
+  - Email Marketing       : 1
+  - Employee Relations    : 1
+  - Google Analytics      : 1
+  - HTML/CSS              : 1
+  - Java                  : 1
+  - Kubernetes            : 1
+  - Lead Generation       : 1
+  - Machine Learning      : 1
+  - Microservices         : 1
+  - Prototyping           : 1
+  - Recruitment           : 1
+  - Spring Boot           : 1
+  - UI/UX                 : 1
+
+5. PROJECTS OVERVIEW
+------------------------------------------------------------------------
+Completed Projects     : 9
+Ongoing Projects       : 8
+Total Projects Tracked : 17
+
+6. SAMPLE SEARCHES & FILTERS DEMONSTRATION
+------------------------------------------------------------------------
+[A] Search by Name: 'alice' (Found: 1)
+    - Alice Johnson (ID: 101) | Dept: Engineering | Salary: $75,000.00
+
+[B] Search by ID: 102
+    - Found: Bob Smith | Dept: Engineering | City: Pune | Salary: $82,000.00
+
+[C] Search by Skill: 'Python' (Found: 4)
+    - Alice Johnson (Engineering) | City: Bangalore | Salary: $75,000.00
+    - Diana Prince (Engineering) | City: Hyderabad | Salary: $92,000.00
+    - Ian Malcolm (Engineering) | City: Bangalore | Salary: $96,000.00
+    - Oscar Martinez (HR) | City: Pune | Salary: $62,000.00
+
+[D] Filter by Department: 'Engineering' (Found: 4)
+    - Alice Johnson | Salary: $75,000.00 | City: Bangalore
+    - Bob Smith | Salary: $82,000.00 | City: Pune
+    - Diana Prince | Salary: $92,000.00 | City: Hyderabad
+    - Ian Malcolm | Salary: $96,000.00 | City: Bangalore
+
+[E] Filter by Salary Range: $60,000.00 - $90,000.00 (Found: 6)
+    - Alice Johnson      | Dept: Engineering  | Salary: $75,000.00
+    - Bob Smith          | Dept: Engineering  | Salary: $82,000.00
+    - George Clark       | Dept: HR           | Salary: $68,000.00
+    - Laura Croft        | Dept: Design       | Salary: $64,000.00
+    - Michael Scott      | Dept: Sales        | Salary: $72,000.00
+    - Oscar Martinez     | Dept: HR           | Salary: $62,000.00
+
+[F] Filter by City: 'Pune' (Found: 3)
+    - Bob Smith | Dept: Engineering | State: Maharashtra
+    - Hannah Abbott | Dept: Design | State: Maharashtra
+    - Oscar Martinez | Dept: HR | State: Maharashtra
+
+[G] Filter by Project Status: 'ongoing' (Found: 8)
+    - Alice Johnson      | Projects: Cloud Migration
+    - Charlie Brown      | Projects: Q1 Campaign
+    - Diana Prince       | Projects: Monitoring Dashboard
+    - George Clark       | Projects: Hiring Drive 2026
+    - Hannah Abbott      | Projects: Mobile App UI
+    - Ian Malcolm        | Projects: Recommendation Engine
+    - Laura Croft        | Projects: Design System 2.0
+    - Michael Scott      | Projects: Regional Sales Expansion
+
+========================================================================
+                          END OF REPORT
+========================================================================
+
+[OK] Results saved to JSON : C:\Users\realc\.gemini\antigravity\scratch\task-21-json-data-processor\output\filtered_results.json
+[OK] Summary report saved  : C:\Users\realc\.gemini\antigravity\scratch\task-21-json-data-processor\output\summary_report.txt

@@ -1,0 +1,321 @@
+[
+  {
+    "id": 101,
+    "name": "Alice Johnson",
+    "age": 28,
+    "department": "Engineering",
+    "salary": 75000,
+    "city": "Bangalore",
+    "skills": ["Python", "Docker", "SQL"],
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560001"
+    },
+    "projects": [
+      {
+        "title": "API Gateway",
+        "status": "completed"
+      },
+      {
+        "title": "Cloud Migration",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Bob Smith",
+    "age": 34,
+    "department": "Engineering",
+    "salary": 82000,
+    "city": "Pune",
+    "skills": ["Java", "Spring Boot", "Microservices"],
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001"
+    },
+    "projects": [
+      {
+        "title": "Payment Service",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Charlie Brown",
+    "age": 25,
+    "department": "Marketing",
+    "salary": 48000,
+    "city": "Mumbai",
+    "skills": ["SEO", "Content Strategy", "Google Analytics"],
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400001"
+    },
+    "projects": [
+      {
+        "title": "Q1 Campaign",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Diana Prince",
+    "age": 31,
+    "department": "Engineering",
+    "salary": 92000,
+    "city": "Hyderabad",
+    "skills": ["Python", "Kubernetes", "AWS"],
+    "address": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500081"
+    },
+    "projects": [
+      {
+        "title": "CI/CD Pipeline",
+        "status": "completed"
+      },
+      {
+        "title": "Monitoring Dashboard",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Ethan Hunt",
+    "age": 38,
+    "department": "Operations",
+    "city": "Delhi",
+    "skills": ["Logistics", "Vendor Management"],
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110001"
+    },
+    "projects": [
+      {
+        "title": "Warehouse Setup",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Fiona Gallagher",
+    "age": 27,
+    "department": "Sales",
+    "salary": 51000,
+    "city": "Delhi",
+    "skills": ["Lead Generation", "CRM", "Negotiation"],
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110020"
+    },
+    "projects": [
+      {
+        "title": "Enterprise Sales",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "George Clark",
+    "age": 42,
+    "department": "HR",
+    "salary": 68000,
+    "city": "Bangalore",
+    "skills": ["Recruitment", "Employee Relations", "Payroll"],
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560034"
+    },
+    "projects": [
+      {
+        "title": "Hiring Drive 2026",
+        "status": "ongoing"
+      },
+      {
+        "title": "HRMS Migration",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Hannah Abbott",
+    "age": 24,
+    "department": "Design",
+    "salary": 53000,
+    "city": "Pune",
+    "skills": ["Figma", "UI/UX", "Prototyping"],
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411038"
+    },
+    "projects": [
+      {
+        "title": "Mobile App UI",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Ian Malcolm",
+    "age": 36,
+    "department": "Engineering",
+    "salary": 96000,
+    "city": "Bangalore",
+    "skills": ["Python", "Machine Learning", "SQL"],
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560100"
+    },
+    "projects": [
+      {
+        "title": "Recommendation Engine",
+        "status": "ongoing"
+      },
+      {
+        "title": "Analytics Pipeline",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Julia Roberts",
+    "age": 29,
+    "department": "Marketing",
+    "salary": 59000,
+    "city": "Mumbai",
+    "skills": ["SEO", "Email Marketing", "Copywriting"],
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400050"
+    },
+    "projects": [
+      {
+        "title": "Product Rebrand",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Kevin Bacon",
+    "age": 30,
+    "department": "Sales",
+    "salary": 50000,
+    "city": "Pune",
+    "skills": [],
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411014"
+    },
+    "projects": [
+      {
+        "title": "Client Onboarding",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Laura Croft",
+    "age": 33,
+    "department": "Design",
+    "salary": 64000,
+    "city": "Hyderabad",
+    "skills": ["Figma", "Design Systems", "HTML/CSS"],
+    "address": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "pincode": "500032"
+    },
+    "projects": [
+      {
+        "title": "Design System 2.0",
+        "status": "ongoing"
+      },
+      {
+        "title": "Landing Page UX",
+        "status": "completed"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Michael Scott",
+    "age": 45,
+    "department": "Sales",
+    "salary": 72000,
+    "city": "Delhi",
+    "skills": ["B2B Sales", "Client Management", "Negotiation"],
+    "address": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110045"
+    },
+    "projects": [
+      {
+        "title": "Regional Sales Expansion",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Nina Patel",
+    "age": 29,
+    "department": "Engineering",
+    "salary": "abc",
+    "city": "Bangalore",
+    "skills": ["Python", "React", "Node.js"],
+    "address": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560076"
+    },
+    "projects": [
+      {
+        "title": "Admin Portal",
+        "status": "ongoing"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Oscar Martinez",
+    "age": 35,
+    "department": "HR",
+    "salary": 62000,
+    "city": "Pune",
+    "skills": ["Payroll", "Compliance", "Python"],
+    "address": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411006"
+    },
+    "projects": [
+      {
+        "title": "Audit Review",
+        "status": "completed"
+      }
+    ]
+  }
+]
